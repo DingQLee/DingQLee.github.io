@@ -1,6 +1,5 @@
 
 import './App.css'
-import { Ring } from './Ring/Ring'
 import { Navbar } from './Navbar/Navbar'
 import { Home } from './Home/Home'
 import { Hobbies } from './Hobbies/Hobbies'
