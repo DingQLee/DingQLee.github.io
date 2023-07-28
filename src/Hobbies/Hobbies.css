@@ -56,6 +56,7 @@
   margin: auto;
   border: 5px solid transparent;
   box-shadow: 3px 3px 10px gray;
+  padding-bottom: 5px;
 }
 
 .youtube-link:hover {
