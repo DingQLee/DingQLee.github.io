@@ -1,0 +1,50 @@
+.home-div {
+  background-color: rgb(182, 182, 0);
+  margin-top: var(--navbar-height);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.home-div h1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-div {
+  height: fit-content;
+  border-left: 5px solid rgb(16, 0, 43);
+  overflow-x: hidden;
+  margin: 0 0 10px 50px;
+  white-space: nowrap;
+  max-width: fit-content;
+}
+
+.header-div h1:hover {
+  transition: background-color 1s ease-in-out;
+  background-color: rgb(187, 223, 190);
+  transition-timing-function: cubic-bezier(0.1, 0.7);
+}
+
+.header-div h1:hover:after {
+  content: attr(data-hover);
+}
+
+
+.float-div {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+  right: 100px;
+  z-index: 1;
+  border-radius: 50% ;
+  box-shadow: 0 5px 10px gray;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(10px);}
+  100% {transform: translateY(0);}
+}

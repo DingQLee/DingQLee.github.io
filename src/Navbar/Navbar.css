@@ -1,0 +1,19 @@
+.navbar-div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: var(--navbar-height);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  font-size: larger;
+  z-index: 2;
+}
+.navbar-div a{
+  margin: 5px 20px 0 20px;
+}
+
+.clock-div {
+  margin: 5px 10px 0 200px;
+}

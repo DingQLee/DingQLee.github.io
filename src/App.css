@@ -1,0 +1,26 @@
+:root {
+  --navbar-height: 40px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-div, .hobbies-div, .contact-div {
+  padding-top: var(--navbar-height);
+  min-height: 90vh;
+  width: 100vw;
+}
+
+.interval-div {
+  background-color: rgb(16, 14, 19);
+  height: 15vh;
+}
