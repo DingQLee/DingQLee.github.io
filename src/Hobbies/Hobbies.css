@@ -44,6 +44,10 @@
   box-shadow: 2px 2px 1px gray;
 }
 
+.youtube-div {
+  padding-top: var(--navbar-height);
+}
+
 .youtube-link {
   background-color: red;
   width: 320px;
@@ -57,6 +61,10 @@
 .youtube-link:hover {
   border: 5px solid rgb(175, 0, 0);
   background-color: rgb(252, 77, 77);
+}
+
+.youtube-frame {
+  box-shadow: 4px 4px 5px black;
 }
 
 .youtube-link:active {

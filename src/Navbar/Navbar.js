@@ -9,7 +9,7 @@ export const Navbar = () => {
     <div className='navbar-div'>
       <a href='#home'>Home</a>
       <a href='#hobbies'>Hobbies</a>
-      <a href='#intro'>Youtube</a>
+      <a href='#youtube'>Youtube</a>
       <a href='#contact'>Contact</a>
       <div className='clock-div'>
         <span>{hours === 0 ? "12" : hours}</span>:<span>{minutes}</span>:

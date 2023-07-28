@@ -17,7 +17,7 @@
 .home-div, .hobbies-div, .contact-div {
   padding-top: var(--navbar-height);
   min-height: 90vh;
-  width: 100%;
+  min-width: 100%;
 }
 
 .interval-div {

@@ -87,13 +87,22 @@ export const Hobbies = () => {
         <h2>Find out who you are in tarot</h2>
       </div>
 
-      <div className='youtube-div'>
+      <div className='youtube-div' id='youtube'>
         <h1>Video making</h1>
         <h2>I make Youtube content about once in a month</h2>
         <h2>I use Davinci Resolve</h2>
         <a href="https://www.youtube.com/channel/UCwaYeTXVn0QasGm_OXTsGHQ">
-          <h2 className='youtube-link'>My Home Page</h2>
+          <div className='youtube-link'><h1>My Home Page</h1></div>
         </a>
+
+        <h2>Some of my videos</h2>
+        <iframe width="560" height="315" className='youtube-frame'
+        src="https://www.youtube.com/embed/uoVgUAXGI2A" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+
+        </iframe>
         <div className='play-button'></div>
       </div>
 
