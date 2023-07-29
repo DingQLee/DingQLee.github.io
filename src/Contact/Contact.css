@@ -3,3 +3,10 @@
   width: 100vw;
   background-color:darkgreen;
 }
+
+.freelance-header {
+  background-color: aquamarine;
+  width: 50%;
+  margin: auto;
+  box-shadow: 2px 2px 5px black;
+}
