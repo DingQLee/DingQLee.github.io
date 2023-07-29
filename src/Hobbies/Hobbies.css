@@ -1,5 +1,12 @@
 .hobbies-div {
   background-color: aqua;
+  background-image: url(../assets/potato.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.hobbies-div h1, h2 {
+  text-shadow: 2px 1px 0px white;
 }
 
 .hobbies-div a {
@@ -120,7 +127,6 @@
   height: 100px;
   width: 100px;
   background-image: url("../assets/squatReady.png");
-  background-color: aliceblue;
 }
 
 .squat-img:active {

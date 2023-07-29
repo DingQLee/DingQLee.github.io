@@ -1,5 +1,6 @@
 .home-div {
   background-color: rgb(182, 182, 0);
+  background-image: url(../assets/pattern.png);
   margin-top: var(--navbar-height);
   display: flex;
   flex-direction: column;
@@ -20,24 +21,48 @@
   max-width: fit-content;
 }
 
-.header-div h1:hover {
+.header-div:hover {
   transition: background-color 1s ease-in-out;
   background-color: rgb(187, 223, 190);
   transition-timing-function: cubic-bezier(0.1, 0.7);
 }
 
-.header-div h1:hover:after {
-  content: attr(data-hover);
-}
-
 .typing{
-  animation: typing-rect 0.6s ease-in infinite;
+  animation: typing-rect 0.6s infinite;
   animation-delay: 1.6s;
 }
 
 @keyframes typing-rect {
-  from {border-right: 3px solid white;}
-  to {border-right: 3px solid transparent;}
+  0% {border-right: 3px solid white;}
+  50% {border-right: 3px solid white;}
+  510% {border-right: 3px solid transparent;}
+  100% {border-right: 3px solid transparent;}
+}
+
+.cascade-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-cascade-div, .right-cascade-div{
+  border: 2px solid rgb(124, 0, 0);
+  padding: 10px;
+  width: fit-content;
+  margin-left: 10px;
+  box-shadow: 2px 2px 5px rgb(58, 0, 0);
+  background-color: rgb(255, 230, 0);
+}
+
+.right-cascade-div {
+  background-color: rgb(0, 41, 25);
+  color: aquamarine;
+}
+
+.right-cascade-div .header-div:hover {
+  transition: background-color 1s ease-in-out;
+  background-color: rgb(63, 117, 0);
+  transition-timing-function: cubic-bezier(0.1, 0.7);
 }
 
 .float-div {
