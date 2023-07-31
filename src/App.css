@@ -33,6 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-animation: shines 1.5s linear infinite;
   animation: shines 1.5s linear infinite;
 }
 
