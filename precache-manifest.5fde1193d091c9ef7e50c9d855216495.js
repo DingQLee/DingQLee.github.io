@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "a0714837dfe85dd1e3f1",
-    "url": "/static/css/main.38eebc03.chunk.css"
+    "revision": "9dee090e2b31a1a55d03",
+    "url": "/static/css/main.80e5aefc.chunk.css"
   },
   {
-    "revision": "a0714837dfe85dd1e3f1",
+    "revision": "9dee090e2b31a1a55d03",
     "url": "/static/js/main.59711827.chunk.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/potato.895a91dc.png"
   },
   {
-    "revision": "76016e4ed50d9c1c57e490ad12cf743b",
+    "revision": "4be26b40a0a4ab51d531bfe612ea4bc7",
     "url": "/index.html"
   }
 ];
