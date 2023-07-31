@@ -33,6 +33,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.loader-div h1{
+  color: white;
   -webkit-animation: shines 1.5s linear infinite;
   animation: shines 1.5s linear infinite;
 }
