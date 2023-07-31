@@ -25,24 +25,3 @@
   background-color: rgb(16, 14, 19);
   height: 15vh;
 }
-
-.loader-div {
-  color: white;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader-div h1{
-  color: white;
-  -webkit-animation: shines 1.5s linear infinite;
-  animation: shines 1.5s linear infinite;
-}
-
-@keyframes shines {
-  0% {opacity: 100%;}
-  50% {opacity: 30%;}
-  100% {opacity: 100%;}
-}
