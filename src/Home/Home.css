@@ -4,7 +4,6 @@
   margin-top: var(--navbar-height);
   display: flex;
   flex-direction: column;
-  text-align: left;
 }
 
 .home-div h1 {
@@ -68,17 +67,46 @@
 .float-div {
   position: absolute;
   height: 30px;
-  width: 30px;
+  width: 70px;
   background-color: aliceblue;
   right: 100px;
   z-index: 1;
   border-radius: 50% ;
   box-shadow: 0 5px 10px gray;
   animation: float 3s ease-in-out infinite;
+  display: inline-block;
+}
+
+.float-div a {
+  text-decoration: none;
+}
+
+.float-div span{
+  color: green;
+  font-size: 1.2rem;
+  margin-left: 15px;
 }
 
 @keyframes float {
   0% {transform: translateY(0);}
   50% {transform: translateY(10px);}
   100% {transform: translateY(0);}
+}
+
+.drawer-container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: fit-content;
+  height: 50rem;
+}
+
+.drawer-div {
+  margin: 4rem;
+  height: 20rem;
+  width: 10rem;
+  background-color: rgb(138, 5, 5);
+  margin-bottom: 4rem;
+  border: 8px inset rgb(122, 3, 3);
 }

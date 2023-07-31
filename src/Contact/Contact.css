@@ -1,7 +1,8 @@
 .contact-div {
   min-height: 90vh;
   width: 100vw;
-  background-color:darkgreen;
+  background: rgb(70,117,67);
+  background: linear-gradient(0deg, rgba(70,117,67,1) 0%, rgba(48,255,106,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .freelance-header {

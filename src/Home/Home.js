@@ -49,8 +49,15 @@ export const Home = () => {
           </Fade>
         </div>
 
-        <div className='float-div'></div>
+        <div className='float-div'>
+          <a href="https://www.fiverr.com/tingkiulee?up_rollout=true">
+            <span>fiverr</span>
+          </a>
+        </div>
+
       </div>
+
+      
 
     </div>
   )
