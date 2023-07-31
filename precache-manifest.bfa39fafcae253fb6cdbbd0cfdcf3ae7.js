@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6e73a42f7acf03a78f39",
-    "url": "/static/css/main.152605e3.chunk.css"
+    "revision": "7bb1d5e0095992d40115",
+    "url": "/static/css/main.9c251071.chunk.css"
   },
   {
-    "revision": "6e73a42f7acf03a78f39",
-    "url": "/static/js/main.5fcf7424.chunk.js"
+    "revision": "7bb1d5e0095992d40115",
+    "url": "/static/js/main.a9178449.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "f0a44f342db04583c25c",
-    "url": "/static/js/2.3b28472c.chunk.js"
+    "revision": "429149b48384d7aa1630",
+    "url": "/static/js/2.bc896aad.chunk.js"
   },
   {
     "revision": "b6c0d73d216167e62d9ea5f91b6072ed",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/potato.895a91dc.png"
   },
   {
-    "revision": "cac197c558e10af5ab34d12cc242f4e3",
+    "revision": "c8336ff0de87bcb1972d6bcf598d40ad",
     "url": "/index.html"
   }
 ];
