@@ -6,12 +6,23 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: rgba(196, 233, 127, 0.562);
   font-size: larger;
   z-index: 2;
 }
+
 .navbar-div a{
-  margin: 5px 20px 0 20px;
+  margin: 5px 20px 5px 20px;
+  padding: 0px 5px 0px 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar-div a:hover {
+  background-color: rgba(194, 170, 34, 0.479);
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 2px rgb(22, 6, 6);
+  transition: 0.3s;
 }
 
 .clock-div {

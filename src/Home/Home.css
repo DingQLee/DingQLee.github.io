@@ -4,6 +4,8 @@
   margin-top: var(--navbar-height);
   display: flex;
   flex-direction: column;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
 }
 
 .home-div h1 {
